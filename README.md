@@ -6,7 +6,7 @@ Sinch delegated security means that we will trust you to authenticate your users
 
 ## User flow for signing a request using delegated security
 
-![](images/render.png)
+![c# security](images/render.png)
 
 As you can see here, Sinch will trust that you protect your secret on your backend. As a developer, there are a couple of great benefits to doing it this way:
 
