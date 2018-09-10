@@ -119,7 +119,7 @@ $.post('http://localhost/SinchBackend/Api/Auth/?username=' +
         signInObj.username + 
         '&password='+signInObj.password,
         function(authTicket) {
-            sinchClient.start(signInObj, function () {
+            sinchClient.start(authTicket, function () {
     //On success, show the UI
     showUI();
 }).fail(handleError);
